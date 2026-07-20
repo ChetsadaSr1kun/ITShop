@@ -1,3 +1,10 @@
+import asusG14Image from "../assets/products/asus-g14.jpg";
+import lenovoLoqImage from "../assets/products/lenovo-loq15.jpg";
+import acerNitroImage from "../assets/products/acer-nitro.jpg";
+import msiKatanaImage from "../assets/products/msi-katana.jpg";
+import hpVictusImage from "../assets/products/hp-victus15.jpg";
+import dellInspironImage from "../assets/products/dell-inspiron.jpg";
+
 export const products = [
   {
     id: 1,
@@ -8,7 +15,7 @@ export const products = [
     rating: 4.8,
     reviews: 128,
     badge: "-17%",
-    image: "/products/asus-g14.jpg",
+    image: asusG14Image,
   },
   {
     id: 2,
@@ -19,7 +26,7 @@ export const products = [
     rating: 4.6,
     reviews: 96,
     badge: "ใหม่",
-    image: "/products/lenovo-loq15.jpg",
+    image: lenovoLoqImage,
   },
   {
     id: 3,
@@ -30,7 +37,7 @@ export const products = [
     rating: 4.7,
     reviews: 108,
     badge: "-18%",
-    image: "/products/acer-nitro.jpg",
+    image: acerNitroImage,
   },
   {
     id: 4,
@@ -41,7 +48,7 @@ export const products = [
     rating: 4.5,
     reviews: 76,
     badge: "ขายดี",
-    image: "/products/msi-katana.jpg",
+    image: msiKatanaImage,
   },
   {
     id: 5,
@@ -49,10 +56,10 @@ export const products = [
     category: "Gaming Laptop",
     price: 22990,
     oldPrice: 25990,
-    rating: 4.7,
+    rating: 3.7,
     reviews: 84,
     badge: null,
-    image: "/products/hp-victus15.jpg",
+    image: hpVictusImage,
   },
   {
     id: 6,
@@ -60,9 +67,9 @@ export const products = [
     category: "Notebook",
     price: 18990,
     oldPrice: null,
-    rating: 4.4,
+    rating: 2.4,
     reviews: 62,
     badge: "ใหม่",
-    image: "/products/dell-inspiron.jpg",
+    image: dellInspironImage,
   },
 ];
